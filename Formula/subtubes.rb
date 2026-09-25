@@ -6,20 +6,20 @@ class Subtubes < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/subtubes-io/subtubes-cli-releases/releases/download/v0.1.0/subtubes-darwin-arm64.zip"
-      sha256 "78318284d033316e3c5d3698587e68fb5bb5c018a63454991adc003b3684c36e"
+      sha256 "8377858a30880154c9c61934e7b85437df6007cc50f95c495e5ba428df006fca"
     else
       url "https://github.com/subtubes-io/subtubes-cli-releases/releases/download/v0.1.0/subtubes-darwin-amd64.zip"
-      sha256 "9bc670d771326f0a78317860fb7a8de41b6fdc2aba7b1a5db8c65ebd6bbd08ce"
+      sha256 "337862254551a094b0530e60a89552b05351d8dfbb9c0f6260e0a1d94bb3d58f"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/subtubes-io/subtubes-cli-releases/releases/download/v0.1.0/subtubes-linux-arm64.zip"
-      sha256 "b6f9722b7c4f1e53f1f3788a1f4aac5b7f364f1b40a2bd1f56b59211f41854bc"
+      sha256 "3430034aff6bc521ee40c173c2fcb2619a0f91b3567e5417fdb7fcfcccb30954"
     else
       url "https://github.com/subtubes-io/subtubes-cli-releases/releases/download/v0.1.0/subtubes-linux-amd64.zip"
-      sha256 "50540fca9253306715a092994810d089234586077e80eb13158342cbc52e33f2"
+      sha256 "84370703c827dddc236c07dc9dedfc444db265dda903be1737024e294c2e0fdf"
     end
   end
 
