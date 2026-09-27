@@ -1,25 +1,25 @@
 class Subtubes < Formula
   desc "CLI for Subtubes code and algorithm archives"
   homepage "https://subtubes.com"
-  version "0.1.3"
+  version "0.1.4"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/subtubes-io/subtubes-cli-releases/releases/download/v0.1.3/subtubes-darwin-arm64.zip"
-      sha256 "56f13ef53c9ef0d10875088eea612579b5cb229e12ca573056f5b731988701ce"
+      url "https://github.com/subtubes-io/subtubes-cli-releases/releases/download/v0.1.4/subtubes-darwin-arm64.zip"
+      sha256 "671a923cbc90eeb46a1d0557e8f5f7419a68dc4f87659a176bfec21cb9d77112"
     else
-      url "https://github.com/subtubes-io/subtubes-cli-releases/releases/download/v0.1.3/subtubes-darwin-amd64.zip"
-      sha256 "c920a6a92d27cc6f9048192aafefa2d4d2a1dd626776ace0beaf422b46b5a987"
+      url "https://github.com/subtubes-io/subtubes-cli-releases/releases/download/v0.1.4/subtubes-darwin-amd64.zip"
+      sha256 "38ca858626cfc1075ee082f54c620b217057bcfe3f9e939fcfc5392b7bc02ba4"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/subtubes-io/subtubes-cli-releases/releases/download/v0.1.3/subtubes-linux-arm64.zip"
-      sha256 "c83270769e6c7a7ffc870bd0255af30703aabe33d159265a4d0a0a814f0c32c6"
+      url "https://github.com/subtubes-io/subtubes-cli-releases/releases/download/v0.1.4/subtubes-linux-arm64.zip"
+      sha256 "b42efda01f9694b6ed5254479ef8f17d0c2da8a6f2bba1d11cb1a2b94289fdb5"
     else
-      url "https://github.com/subtubes-io/subtubes-cli-releases/releases/download/v0.1.3/subtubes-linux-amd64.zip"
-      sha256 "4b92c54034abb6d6b617c0daf2a46ff3f5422b8d6b919bd2ba6296212490073e"
+      url "https://github.com/subtubes-io/subtubes-cli-releases/releases/download/v0.1.4/subtubes-linux-amd64.zip"
+      sha256 "b902305c3393470e535f2292b21dad6590d3d53f2ee63eedf973e2a90736a2f2"
     end
   end
 
